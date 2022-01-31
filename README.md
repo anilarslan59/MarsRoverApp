@@ -1,5 +1,5 @@
 # MarsRoverApp Mars Rover App
-# Mars Rover
+## Mars Rover
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is
 curiously rectangular, must be navigated by the rovers so that their on board cameras can get a
@@ -13,7 +13,7 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 current spot. 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-# Input:
+### Input:
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are
 assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each rover
@@ -24,27 +24,28 @@ The position is made up of two integers and a letter separated by spaces, corres
 and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move
 until the first one has finished moving.
-# Output:
+### Output:
 The output for each rover should be its final co-ordinates and heading.
 Input and Output
 
-# Test Input:
-5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM
+### Test Input
+    5 5
+    1 2 N 
+    LMLMLMLMM 
+    3 3 E 
+    MMRMMRMRRM 
 
-# Expected Output:
-1 3 N
-5 1 E
+### Expected Output
+    1 3 N
+    5 1 E
 
-# RunApp
-RabbitMQ Must be installed Local
--- http://localhost:15672/
--- username: guest
--- password: guest
+### RunApp
 
-Run App
-First MarsRoverApp.Host App
-Second MarsRoverApp
+    RabbitMQ Must be installed Local
+    -- http://localhost:15672/
+    -- username: guest
+    -- password: guest
+
+    Run App
+    First MarsRoverApp.Host App
+    Second MarsRoverApp
