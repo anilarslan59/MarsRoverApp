@@ -1,4 +1,4 @@
-# MarsRoverApp Mars Rover App
+# MarsRoverApp
 ## Mars Rover
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is
